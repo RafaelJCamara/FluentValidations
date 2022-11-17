@@ -33,10 +33,7 @@ namespace FluentValidations
         {
 
             services
-                .AddControllers(options =>
-                {
-                    //options.Filters.Add<ValidationFilter>();
-                });
+                .AddControllers();
 
             services.AddScoped<ValidationFilter>();
 
